@@ -1,0 +1,374 @@
+*{
+    font-family: 'Questrial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes transitionIn {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+/*----------------------Kindly note that I am using a 1280x1020 monitor hehe-----------------------------*/
+body{
+    background-image: url(media/bg.jpg);
+}
+
+#buttonTop{
+    display: none;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(203, 203, 203);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    border-radius: 50px;
+    border: none;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    outline: 1px solid rgb(0, 255, 17);
+}
+
+#buttonTop:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(77, 255, 0);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+#header{
+    position: relative;
+    max-width: 100%;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    z-index: 999;
+}
+
+#headercont{
+    display: flex;
+    float: left;
+}
+
+#headercont h2{
+    position: absolute;
+    top: 50px;
+    left: 130px;
+}
+
+#headercont h3{
+    position: absolute;
+    top: 90px;
+    left: 130px;
+}
+
+#imgframe{ 
+    position: relative;
+    top: 30px;
+    left: 10px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#imgframe img{
+    width: 700px;
+    position: relative;
+    right: 220px;
+    bottom: 220px;
+}
+
+#navbar{
+    max-width: 100%;
+    height: 40px;
+    background-color: rgb(54, 54, 54);
+    position: sticky;
+    top: 0;
+    z-index: 998;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 4px greenyellow;
+}
+
+#navitems ul{
+    list-style: none;
+    margin-left: 50px;
+}
+
+#navitems li{
+    float: left;
+}
+
+#navitems img{
+    width: 40px;
+    padding: 9px;
+    position: relative;
+}
+
+#navitems img:hover{
+    opacity: 0.8;
+}
+
+.container{
+    background-color: rgba(56, 63, 51, 0.9);
+    border-radius: 10px;
+    margin: 0.5%;
+    z-index: 98;
+    animation: transitionIn 0.5s;
+    padding-bottom: 100px;
+}
+
+.row{
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    overflow: hidden;
+}
+
+.card01{
+    position: relative;
+    flex: 1;
+    display: flex;
+    max-width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+
+.card01 h1{
+    color: white;
+    display: block;
+    position: relative;
+    margin: 50px auto;
+    font-size: 50pt;
+    text-shadow: 5px 0px 1px black;
+}
+
+.card02{
+    position: relative;
+    flex: 1;
+    display: flex;
+    max-width: 100%;
+    height: 600px;
+    overflow: hidden;
+    background-color: rgb(38, 41, 38);
+}
+
+.card02 img{
+    margin: 0% auto;
+}
+
+.card03{
+    position: relative;
+    flex: 1;
+    max-width: 95%;
+    height: 480px;
+    overflow: hidden;
+    margin: 25px auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.card03 h3, .card03 p{
+    text-align: center;
+    margin: 0 10%;
+}
+
+.card03 h3{
+    margin-top: 10%;
+}
+
+.bottomcont{
+    position: relative;
+    top: -100px;
+    background-color: rgb(45, 45, 45);
+    z-index: 99;
+    animation: transitionIn 0.5s;
+}
+
+.card04{
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+    height: 100px;
+    overflow: hidden;
+    border-left: 10px solid rgb(143, 239, 0);
+    background-color: rgb(27, 27, 27);
+}
+
+.card04 h2{
+    color: white;
+    margin: 40px 30px;
+}
+
+.card06, .card08, .card10{
+    color: white;
+    text-align: center;
+}
+
+.card05{
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+    height: 400px;
+    overflow: hidden;
+    margin: 25px auto;
+}
+
+.card06{
+    position: relative;
+    flex: 1;
+    max-width: 60%;
+    height: 200px;
+    overflow: hidden;
+    margin: 25px auto;
+}
+
+.card07{
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+    height: 400px;
+    overflow: hidden;
+    margin: 25px auto;
+}
+
+.card08{
+    position: relative;
+    flex: 1;
+    max-width: 60%;
+    height: 200px;
+    overflow: hidden;
+    margin: 25px auto;
+}
+
+.card09{
+    position: relative;
+    flex: 1;
+    max-width: 60%;
+    height: 400px;
+    overflow: hidden;
+    margin: 25px auto;
+}
+
+.card10{
+    position: relative;
+    flex: 1;
+    max-width: 60%;
+    height: 200px;
+    overflow: hidden;
+    margin: 25px auto;
+}
+
+.imgtable{
+    position: relative;
+    top: -100px;
+    background-color: rgb(45, 45, 45);
+    z-index: 99;
+}
+
+.card11{
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+    height: 100px;
+    overflow: hidden;
+    border-left: 10px solid rgb(143, 239, 0);
+    background-color: rgb(27, 27, 27);
+}
+
+.card11 h2{
+    color: white;
+    margin: 40px 30px;
+}
+
+.table{
+    max-width: 100%;
+    height: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    overflow: hidden;
+}
+
+.imgtable table{
+    margin-top: 20px;
+    border: 1px solid rgb(0, 255, 21);
+    height: 600px;
+    background-color: rgba(203, 203, 203, 0.2);
+}
+
+.imgtable>.table>table tr td{
+    border: 1px dashed rgb(14, 227, 14);
+    width: 426px;
+}
+
+.zoom-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.zoom:hover .zoom-content {
+    display: block;
+    animation: transitionIn 0.3s;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+/*--------FOOOOOOTTTEEERRRRR--------------*/
+
+.footer{
+    background-color: rgb(27, 27, 27);
+    position: relative;
+    bottom: 100px;
+    z-index: 100;
+}
+
+.footrow{
+    max-width: 100%;
+    height: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer01{
+    position:static;
+    flex: 1;
+    max-width: 100%;
+    height: 200px;
+    overflow: hidden;
+    background-color: rgb(27, 27, 27);
+}
+
+.footer02{
+    position:static;
+    flex: 1;
+    max-width: 100%;
+    height: 200px;
+    overflow: hidden;
+    background-color: rgb(27, 27, 27);
+}
+
+.footer01 h4, .footer02 h5{
+    color: white;
+    text-align: center;
+}
+
+.footer01 h4{
+    margin-top: 50px;
+}

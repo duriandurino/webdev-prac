@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+    box-sizing: border-box;
+    animation: transitionIn 0.5s;
+}
+
+@keyframes transitionIn {
+    from{
+        opacity: 0;
+    }   
+
+    to{
+        opacity: 1;
+    }
+}
+
+body{
+    background-color: rgb(65, 61, 56);
+}
+
+.container{
+    margin: 1%;
+}
+
+.row{
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    background-image: url(https://img5.goodfon.com/wallpaper/nbig/c/6e/tekstura-fon-chernyi-celebration-pattern-design.jpg);
+}
+
+.confetti{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.confetti>img{
+    width: 1200px;
+}
+
+.card01{
+    max-width: 100%;
+    height: 500px;
+    flex: 1;
+    position: relative;
+    margin: 10% 20%;
+    overflow: hidden;
+    background-color: rgb(183, 134, 11, 0.5);
+    border-radius: 10px;
+    border: 5px ridge white;
+}
+
+.card01>video{
+    width: 630px;
+    margin: 1% 5%;
+}
+
+.card02{
+    box-shadow: 2px 2px 5px white;
+    max-width: 100%;
+    height: 500px;
+    margin: 10px;
+    flex: 1;
+    position: relative;
+    background-color: rgb(255, 222, 173, 0.3);
+    overflow: hidden;
+    border-radius: 40px;
+}
+
+.card02>video{
+    width: 850px;
+    margin: 1% 15%;
+    border: 3px double navajowhite;
+}
+
+.card03{
+    box-shadow: 2px 2px 5px white;
+    max-width: 100%;
+    height: 700px;
+    margin: 10px;
+    flex: 1;
+    position: relative;
+    background-color: rgba(117, 104, 83, 0.9);
+    overflow: hidden;
+    border-radius: 40px;
+}
+
+.card03>img{
+    width: 500px;
+    margin: 10% 7%;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 30px;
+}
+
+.card03>p{
+    text-align: center;
+    margin: 15% 20%;
+    font-size: 25pt;
+    color: rgb(255, 255, 255);
+}
+
+@media (max-width: 500px){
+    .card01{
+        flex:100%;
+        height: 200px;
+        margin: 2% 15%;
+    }
+
+    .card01>video{
+        width: 240px;
+        margin: 2% 7%;
+    }
+
+    .card02{
+        flex: 100%;
+        height: 250px;
+    }
+
+    .card02>video{
+        width: 380px;
+        margin: 4% 2%;
+    }
+
+    .card03{
+        flex: 100%;
+    }
+
+    .card03.left{
+        height: 450px;
+    }
+
+    .card03>img{
+        width: 340px;
+    }
+
+    
+}

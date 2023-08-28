@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Adrian Web Form</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/png" href="pizza.png">
+</head>
+<body>
+    <div class="container">
+        <div class="row">            
+            <div class="card01">
+                <form action="" method="post" enctype="text/plain">
+                    <fieldset class="fs">
+                        <legend>Customer Information</legend>
+                        <table cellspacing="5px">
+                            <tr>
+                                <td>
+                                    <label>Name*</label>
+                                </td>
+                                <td>
+                                    <input type="text" placeholder="first and last name" style="margin-left: 45px; width: 90%;">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label>Street address</label>
+                                </td>
+                                <td>
+                                    <input type="text" style="margin-left: 45px; width: 90%;">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label>City</label>
+                                </td>
+                                <td>
+                                    <input type="text" value="Ormond Beach" style="margin-left: 45px; width: 90%;">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label>State</label>
+                                </td>
+                                <td>
+                                    <input type="text" value="FL" style="margin-left: 45px; width: 90%;">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label>Postal Code</label>
+                                </td>
+                                <td>
+                                    <input type="text" placeholder="nnnnn (-nnnn)" style="margin-left: 45px; width: 90%;">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label>Phone Number</label>
+                                </td>
+                                <td>
+                                    <input type="tel" placeholder="(nnn) nnn-nnnn" style="margin-left: 45px; width: 90%;">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label>E-mail*</label>
+                                </td>
+                                <td>
+                                    <input type="email" style="margin-left: 45px; width: 90%;">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label style="position: relative; bottom: 27px;">
+                                        Where did you hear about us?<br>
+                                        (select all that apply)
+                                    </label>
+                                </td>
+                                <td>
+                                    <select name="heared" size="5px" style="width: 85%; margin-left: 54px;" multiple="multiple">
+                                        <option value="Internet">Internet</option>
+                                        <option value="Magazine">Magazine</option>
+                                        <option value="Newspaper">Newspaper</option>
+                                        <option value="Word of Mouth">Word of Mouth</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label>What's your favorite dish?</label>
+                                </td>
+                                <td>
+                                    <input type="text" style="margin-left: 45px; width: 90%;">
+                                </td>
+                            </tr>                                                                    
+                        </table>
+                        <label style="margin-left: 1%;">How many times do you dine out per month?</label>                                
+                        <input type="number" style="width: 15%; margin-left: 89px;" value="1"><br><br>
+                        <input type="checkbox">
+                        <label>Add me to your mailing list for great coupons and specials!</label>
+                    </fieldset>
+                </form>
+            </div>
+
+    <!--/info form-->
+
+    <!--experience form-->
+
+            <div class="card01">
+                <form action="" method="post" enctype="text/plain">
+                    <fieldset class="fs">
+                        <legend>Share Your Experience at Red Ball Pizza</legend>
+                        <table cellspacing="5px">
+                            <tr>
+                                <td>
+                                    <label>Date of visit</label>
+                                </td>
+                                <td>
+                                    <input type="date" style="width: 190px; margin-left: 100px;">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label>Order type</label>
+                                </td>
+                                <td>
+                                    <select name="heared" style="width: 180px; margin-left: 100px;">
+                                        <option value="Dine in">Dine in</option>
+                                        <option value="Take out">Take out</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label>Was your service friendly?</label>
+                                </td>
+                                <td>
+                                    <fieldset class="radio" style="margin-left: 100px;">
+                                        <label>Yes</label>
+                                        <input type="radio" value="Yes" name="friendly">
+                                        <label>No</label>
+                                        <input type="radio" value="No" name="friendly">
+                                    </fieldset>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label>Was your order correct?</label>
+                                </td>
+                                <td>
+                                    <fieldset class="radio" style="margin-left: 100px;">
+                                        <label>Yes</label>
+                                        <input type="radio" value="Yes" name="correct">
+                                        <label>No</label>
+                                        <input type="radio" value="No" name="correct">
+                                    </fieldset>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label>Was your food hot?</label>
+                                </td>
+                                <td>
+                                    <fieldset class="radio" style="margin-left: 100px;">
+                                        <label>Yes</label>
+                                        <input type="radio" value="Yes" name="hot">
+                                        <label>No</label>
+                                        <input type="radio" value="No" name="hot">
+                                    </fieldset>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label>
+                                        Rate the overall service<br>
+                                        (0=poor; 10=great)
+                                    </label>
+                                </td>
+                                <td>
+                                    <span style="vertical-align:super; font-size: 80%; margin-left: 100px;">0</span>
+                                    <input style="float: none;" name="Rate" type="range" min="0" max="10" class="range">
+                                    <span style="vertical-align:super; font-size: 80%;">10</span>
+                                </td>
+                            </tr>
+                        </table>
+                        <label style="margin-left: 5px;">Tell us more about your experience!</label><br>
+                        <textarea name="Textarea" cols="53" rows="7" style="margin: 20px 0px 0px 5px;"></textarea>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+
+    <!--/forms-->
+
+    <!--buttons-->
+
+        <div class="row">
+            <div class="card02">
+                <input type="submit" value="Submit My Survey" id="submit" class="btn">
+            </div>
+            <div class="card02">
+                <input type="reset" value="Cancel" id="cancel" class="btn">
+            </div>
+        </div>
+    </div>
+
+    <!--/buttons-->
+
+    <!--red bar-->
+
+    <div id="redbar">
+            
+    </div>
+</body>
+</html>

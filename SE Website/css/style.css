@@ -1,0 +1,203 @@
+*{
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    animation: transitionIn 0.5s;
+}
+
+@keyframes transitionIn {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(102, 102, 102) ,rgb(22, 22, 22) 50%);
+}
+
+#navbar{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    /*border: 1px solid red;*/
+    float: left;
+    background-color: #333;
+}
+
+#icon{
+    /*border: 1px solid green*/
+    width: 30%;
+}
+
+#icon a img{
+    width: 43%; 
+    margin-left: 30%;
+    margin-top: 2%;
+}
+
+.navbar{
+    /*border: 1px solid blue;*/
+    margin-left: 30%;
+    width: 69%;
+}
+
+.navbar a{
+    float: left;
+    padding: 5% 4%;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18pt;
+    display: block;
+}
+
+.navbar a:hover{
+    color: black;
+    background-color: rgb(245, 227, 147);
+}
+
+.navbar a.revel:hover{
+    color: black;
+    background-color: crimson;
+}
+
+.content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+/*================end of navbar=================*/
+
+#welcome{
+    display: flex;
+    width: 100%;
+    height: 75vh;
+    justify-content: center;
+    align-items: center;
+    /*border: 1px solid red;*/
+}
+
+.back{
+    width: 100%;
+    margin-top: 40%;
+    margin-bottom: 20%;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9){
+	.back{
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media (max-aspect-ratio: 16/9){
+	.back{
+		width: auto;
+		height: 100%;
+	}
+}
+
+#credits{
+    color: #fff;
+    width: 100%;
+    height: 10vh;
+    /*border: 1px solid red;*/
+    margin-top: 10%;
+    justify-content: center;
+    align-content: center;
+    float: left;
+    display: flex;
+}
+
+#credits h3{
+    
+}
+
+/*======================end of welcome sec=======================*/
+
+#main{
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    float: left;
+    /*border: 1px solid red;*/
+    margin-top: 5%;
+    background-image: linear-gradient(rgb(34, 34, 34) 20%, rgb(92, 67, 0), rgb(36, 36, 36));
+}
+
+#leftcont{
+    /*border: 1px solid green;*/
+    width: 50%;
+    margin: 5%;
+}
+
+#leftcont img{
+    width: 100%;
+}
+
+#leftcont h3{
+    color: #fff;
+}
+
+#rightcont{
+    /*border: 1px solid blue;*/
+    width: 50%;
+    margin: 5%;
+    color: #fff;
+}
+
+
+/*====================end of main sec================*/
+
+#news{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    /*border: 1px solid red;*/
+    background-color: rgb(17, 17, 17);
+    justify-content: center;
+    text-align: center;
+}
+
+#news ul{
+    list-style: none;
+    margin: 10%;
+}
+
+#news h1{
+    color: #fff;
+    margin-bottom: 20%;
+}
+
+#news ul li{
+    margin-top: 10%;
+}
+
+#news ul li a{
+    color: #fff;
+    font-size: 14pt;
+}
+
+/*=====================end of minigal======================*/
+
+#footer{
+    display: flex;
+    width: 100%;
+    height: 13vh;
+}
+

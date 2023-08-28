@@ -1,0 +1,33 @@
+body{
+    background-image: linear-gradient(rgb(70, 70, 70), rgb(0, 0, 0), rgb(70, 70, 70));
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-shadow: 1px 1px 3px white;
+    font-weight: bolder;
+}
+
+table{
+    background-image: url(zebra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-collapse: collapse;
+    border: 1px solid rgb(121, 121, 121);
+    width: 100%;
+    text-align: center;
+    margin: 0px auto;
+}
+
+td{
+    padding: 15px 0px;
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(180, 180, 180, 0.9);
+}
+
+tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+

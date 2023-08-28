@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+div{
+    
+}
+
+header{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: cornsilk;
+    z-index: 998;
+}
+
+header img{
+    position: relative;
+    width: 200px;
+    padding: 10px;
+}
+
+#navbar{
+    position: sticky;
+    width: 100%;
+    height: 75px;
+    z-index: 999;
+    background-color: aquamarine;
+    box-shadow: 1px 1px 4px #696969;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sidebar{
+    box-shadow: 1px 4px 6px #696969;
+    position: fixed;
+    top: 75px;
+    right: 0;
+    height: 100%;
+    width: 250px;
+    overflow: auto;
+    padding-top: 50px;
+    z-index: 997;
+    background-color: palevioletred;
+}
+
+.sidebar h4, ul{
+    margin: 10px 0px 0px 20px;
+    list-style: none;
+}
+
+.container{
+    border: 4px outset #f9f9f9;
+    margin: 0px 255px 10px 0px;
+    z-index: 996;
+    background-color: pink;
+    padding-bottom: 10px;
+}
+
+.header{
+    margin-right: 250px;
+    padding: 10px;
+}
+
+.row{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.card01, .card02, .card03{
+    overflow: hidden;
+    border: 1px ridge black;
+    justify-content: center;
+    display: flex;
+}
+
+.img img{
+    position: relative;
+    margin: 20% 0%;
+}
+
+.card01{
+    position: relative;
+    flex: 1;
+    height: 300px;
+    max-width: 100%;
+    margin: 5px;
+}
+
+.card02{
+    position: relative;
+    flex: 1;
+    height: 300px;
+    max-width: 100%;
+    margin: 5px;
+}
+
+.card03{
+    position: relative;
+    flex: 1;
+    height: 300px;
+    max-width: 100%;
+    margin: 5px;
+}

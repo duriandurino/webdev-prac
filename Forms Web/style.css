@@ -1,0 +1,36 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+    margin: 9%;
+    background-image: url(E5DIm-KVUAAppDX.jpg);
+}
+
+legend, form{
+    font-size: 14px;
+}
+
+legend{
+    padding: 6px;
+    background-color: rgb(153, 0, 0);
+    color: #fff;
+}
+
+table{
+    
+}
+
+fieldset{
+    background-color: rgb(252, 241, 191);
+    border-radius: 20px;
+}
+
+#button{
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+}

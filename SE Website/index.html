@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+    <head>
+        <title>SERENITY</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="icon" type="image/png" href="medias/selogo.png" sizes="32x32">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet"> 
+    </head>
+    <body>  
+        <div id="navbar">
+            <div id="icon"><a href="#"><img src="medias/selogo.png"></a></div>
+            <div class="navbar">
+                <a href="#">About</a>
+                <a href="#">Highlights</a>
+                <a href="#">Teams</a>
+                <a class="revel" href="REVEL Website/revel.html" target="_blank">REVEL™</a>
+            </div>
+        </div>
+        <div id="welcome">
+            <video autoplay muted loop plays-inline class="back">
+                <source src="medias/hushhlt.mp4" type="video/mp4">
+            </video><br>
+        </div>
+        <div id="credits">
+            <h3>------------------------ SE Hush Gameplay Highlights ------------------------</h3>
+        </div>
+        <div id="main">
+            <div id="leftcont">
+                <img src="medias/selogo.png">
+                <h3>"SERENITY ESPORTS LOGO"</h3>
+            </div>
+            <div id="rightcont">
+                <h1>Introduction</h1><br><br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Dolorem enim, rerum labore sed magnam quia cumque culpa nemo repellendus 
+                    debitis odio minima dignissimos aliquid sequi, tempora voluptate nam ipsa harum.
+                </p><br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Dolorem enim, rerum labore sed magnam quia cumque culpa nemo repellendus 
+                    debitis odio minima dignissimos aliquid sequi, tempora voluptate nam ipsa harum.
+                </p>
+            </div>
+        </div>
+        <div id="news">
+            <ul>
+                <h1>News & Updates<hr></h1>
+                <li><a href="">Durino's long hiatus</a></li>
+                <li><a href="medias/ayajail.png">SE Aya suspect for raping a loli</a></li>
+                <li><a href="">Hush got NTR'ed</a></li>
+                <li><a href="medias/japerskol.png">Rill's transformation from CASUAL boy to CONYO boy</a></li>
+                <li><a href="">Will Sede take the managing position for SE?</a></li>
+                <li><a href="">Durino possibly becoming coach for SE</a></li>
+                <li><a href="">SE members' possible team up with REVEL for developing an indie game</a></li>
+            </ul>
+        </div>
+        <div id="footer">
+
+        </div>
+
+    <script>
+        window.onscroll = function() {myFunction()};
+            
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+            
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+    </script>
+    </body>
+</html>
