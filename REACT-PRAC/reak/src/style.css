@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.wrap{
+    padding: 0% 20%;
+    background-color: rgb(59, 59, 59);
+    width: 100%;
+    height:max-content;
+}
+
+.row{
+    background-color: rgba(238, 238, 238, 0.1);
+    display: flex;
+    flex-wrap:wrap;
+    padding: 5% 2%;
+    height: 30em;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.col{
+  background-color: rgba(255, 25, 25, 0.1);
+  flex: 1;
+  text-align: center;
+  align-content: center;
+  overflow: hidden;
+}
+
+.pix{
+  width: 70%;
+}
